@@ -136,6 +136,7 @@ iframe {
 .limiter {
   width: 100%;
   margin: auto;
+  border: blue solid thin;
 }
 
 .container-table100 {
@@ -151,6 +152,7 @@ iframe {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  border: red solid thin;
   /*border: black solid thin;*/
 }
 
@@ -158,7 +160,7 @@ iframe {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  /*border: black solid thin;*/
+  border: black solid thin;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -484,6 +486,7 @@ h1.voda {
 }
 
 .box {
+    border: green solid thin;
     margin-top: 3vw;
     margin-bottom: 3vw;
 }
