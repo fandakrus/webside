@@ -430,13 +430,13 @@ h1.voda {
 }
 
     .table100-head th {
-        padding-top: 3vw;
-        padding-bottom: 3vw;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
     }
     
     .table100-body td {
-        padding-top: 2.5vw;
-        padding-bottom: 2.5vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
     }   
     .table100.ver1 {
         border-radius: 2vw;
