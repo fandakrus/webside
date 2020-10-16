@@ -79,11 +79,11 @@
 		        <tr>
 		            <th colspan="3" class="undervalue">Temperature <?php echo $readings_count; ?> readings</th>
 	            </tr>
-		        <tr>
-		            <td>Min</td>
-                    <td>Max</td>
-                    <td>Average</td>
-                </tr>
+		    <tr>
+		        <td>Min</td>
+                        <td>Max</td>
+                        <td>Average</td>
+                    </tr>
                 <tr>
                     <td><?php echo $min_temp['min_amount']; ?> &deg;C</td>
                     <td><?php echo $max_temp['max_amount']; ?> &deg;C</td>
