@@ -94,10 +94,10 @@ iframe {
 }
 
 .table100 .ps__rail-y {
-  width: 9px;
+  width: 4vw;
   background-color: transparent;
   opacity: 1 !important;
-  right: 5px;
+  right: 2vw;
 }
 
 .table100 .ps__rail-y::before {
@@ -105,11 +105,11 @@ iframe {
   display: block;
   position: absolute;
   background-color: #ebebeb;
-  border-radius: 5px;
+  border-radius: 2vw;
   width: 100%;
-  height: calc(100% - 30px);
+  height: calc(100% - 10vw);
   left: 0;
-  top: 15px;
+  top: 5vw;
 }
 
 .table100 .ps__rail-y .ps__thumb-y {
@@ -124,11 +124,11 @@ iframe {
   display: block;
   position: absolute;
   background-color: #cccccc;
-  border-radius: 5px;
+  border-radius: 2vw;
   width: 100%;
-  height: calc(100% - 30px);
+  height: calc(100% - 10vw);
   left: 0;
-  top: 15px;
+  top: 5vw;
 }
 
 
@@ -414,7 +414,24 @@ h1.voda {
     .wrap-table100{
         width: 90%;
     }
-    
+    .table100-body {
+        max-height: 585px;
+        overflow: auto;
+    }
+
+    .table100.ver1 th {
+        font-size: 1.5vw;
+        line-height: 1.4;
+    }
+    .table100.ver1 th {
+        font-size: 1.2vw;
+    }
+
+.table100.ver1 td {
+  font-size: 1.2vw;
+  line-height: 1.4;
+}
+
     .table100-head th {
         padding-top: 3vw;
         padding-bottom: 3vw;
