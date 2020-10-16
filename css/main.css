@@ -411,10 +411,6 @@ h1.voda {
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
-    .wrap-table100 {
-        width: 100%;
-    /*border: black solid thin;*/
-    }
     .wrap-table100{
         width: 90%;
     }
