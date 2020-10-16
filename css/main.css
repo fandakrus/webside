@@ -159,7 +159,7 @@ iframe {
 }
 
 .wrap-table100 {
-  width: 100%;
+  width: 1000px;
   /*border: black solid thin;*/
 }
 
@@ -412,7 +412,7 @@ h1.voda {
 
 @media screen and (max-width: 500px) /* Mobile */ {
     .wrap-table100 {
-    width: 100vw;
+    width: 100%;
     /*border: black solid thin;*/
     }
     .content {
